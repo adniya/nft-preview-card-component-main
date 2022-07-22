@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.parent {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.child {
+    display: inline;
+    padding: 1rem;
+    border-radius: 16px;
+    background-color: hsl(216, 50%, 16%);
+    height: 75%;
+    width: 27%;
+    margin: 0;
+}
+
+.image {
+    height: 50%;
+    width: 100%;
+}
+
+.image img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 1.5rem;
+    height: 50%;
+    width: 100%;
+}
+
+.card h4 {
+    color: white;
+    margin: 0;
+    padding: .1rem;
+    height: 1.5rem;
+}
+
+.card p {
+    height: 4rem;
+    color: hsl(215, 51%, 70%);
+    Font-size: 15px;
+}
+
+.section {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    height: 2rem;
+    color: hsl(178, 100%, 50%);
+}
+
+.left img {
+    padding-right: .3rem;
+    height: 13px;
+}
+
+.right {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    width: 50%;
+    height: 2rem;
+    justify-content: right;
+}
+
+.right img {
+    padding-right: .3rem;
+    height: 13px;
+}
+
+.footer {
+
+    border-top: 1px solid hsl(215, 32%, 27%) ;
+    padding-top: .9rem;
+    padding-bottom: .7rem;
+    display: flex;
+    height: 3rem;
+}
+
+.footer img {
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    margin-right: .9rem;
+ 
+}
+.footer p{
+  margin-top:.2rem;
+    height: 1rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+}
+.footer a{
+    height: 1rem;
+    text-decoration: none;
+    color: hsl(215, 51%, 70%);
+}
+@media only screen and (max-width: 375px) {
+    .parent {
+        overflow: scroll;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        max-width: 100%;
+        background-color: hsl(217, 54%, 11%);
+    }
+    
+    .child {
+        display: inline;
+        padding: 1rem;
+        border-radius: 16px;
+        background-color: hsl(216, 50%, 16%);
+        height: 75%;
+        width: 80%;
+        margin: 0;
+    }
+}
