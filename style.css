@@ -124,12 +124,12 @@
 @media (min-width:700px){
     .child{
         max-width:40%;
-        height: auto;
+        height: 70%;
     }
 }
 @media (min-width:1440px){
     .child{
         max-width:20%;
-        height: auto;
+        height: 70%;
     }
 }
