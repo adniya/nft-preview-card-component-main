@@ -20,7 +20,7 @@
     padding: 1rem;
     border-radius: 16px;
     background-color: hsl(216, 50%, 16%);
-    height: 55%;
+    height: 70%;
     max-width: 90%;
     margin: 0;
 }
@@ -124,10 +124,12 @@
 @media (min-width:700px){
     .child{
         max-width:40%;
+        height: auto;
     }
 }
 @media (min-width:1440px){
     .child{
         max-width:20%;
+        height: auto;
     }
 }
