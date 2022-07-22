@@ -123,6 +123,11 @@
 
 @media (min-width:700px){
     .child{
-        max-width:45%;
+        max-width:40%;
+    }
+}
+@media (min-width:1440px){
+    .child{
+        max-width:20%;
     }
 }
